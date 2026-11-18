@@ -1,2 +1,2 @@
 @echo off
-powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\Scripts\ChiudiTutto.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "%~dp0ChiudiTutto.ps1"
